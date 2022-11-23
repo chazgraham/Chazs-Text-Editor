@@ -40,7 +40,7 @@ module.exports = {
       title: 'Webpack Plugin',
     }),
     new InjectManifest({
-      swSrc: './src-sw.js',
+      swSrc: './src/src-sw.js',
       swDest: 'service-worker.js',
     }),
     new WebpackPwaManifest({
