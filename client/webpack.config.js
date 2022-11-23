@@ -40,13 +40,13 @@ module.exports = {
       title: 'Webpack Plugin',
     }),
     new InjectManifest({
-      swSrc: './src/src-sw.js',
-      swDest: 'service-worker.js',
+      swSrc: './src-sw.js',
+      swDest: 'src-sw.js',
     }),
     new WebpackPwaManifest({
       name: 'Just Another Text Editor',
-      short_name: 'jane',
-      description: 'Just Another Text Editor!',
+      short_name: 'J.A.T.E',
+      description: 'Take notes with javaScript syntax highlighting!',
       background_color: '#7eb4e2',
       theme_color: '#7eb4e2',
       start_url: './',
