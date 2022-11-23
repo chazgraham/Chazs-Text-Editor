@@ -14,7 +14,7 @@ A full stack application that uses a JavaScript text editor format and adds a of
   * [Contact Me](#contact-me)
 
 ## Installation Instructions
-Before running this application you must install -please `npm init`, `npm install`, Then `run npm start` to build the application.
+Before running this application you must install -please `npm init`, `npm install`, Then run `npm start` to build the application.
 
 ## Application Usage
 -The usage is to keep track of users thoughts via text.
