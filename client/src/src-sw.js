@@ -28,7 +28,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 registerRoute(
   registerRoute(({ request }) => ['style', 'script', 'worker'].includes(request.destination),
-  new  offlineFallback({
+  new  CacheFirst({
     cacheName: 'assets-cache',
     plugins: [
       new CacheableResponsePlugin({
