@@ -2,7 +2,7 @@
 
 ## Descripton
 A full stack application that uses a JavaScript text editor format and adds a offine functionality via service worker with desktop installation.
-
+https://pwa-text-editor-chaz.herokuapp.com/
 ![](./assets/images/JATE.jpg)
 
 ## Table of Contents

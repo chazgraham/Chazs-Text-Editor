@@ -5,7 +5,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
     butInstall.style.visibility = 'visible';
   
     butInstall.addEventListener('click', () => {
-      event.prompt();
       butInstall.setAttribute('disabled', true);
       butInstall.textContent = 'Installed!';
     });
